@@ -130,10 +130,12 @@ export function AnimatedCursor({ outerScale = 5, innerScale = 0.7 }) {
       <div
         ref={cursorOuterRef}
         className={`${styles.cursorOuter} bg-yellow-500/40`}
+        data-testid="cursorOuter"
       />
       <div
         ref={cursorInnerRef}
         className={`${styles.cursorInner} bg-yellow-500`}
+        data-testid="cursorInner"
       />
     </Fragment>
   );
