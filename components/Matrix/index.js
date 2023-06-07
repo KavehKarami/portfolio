@@ -39,7 +39,7 @@ function Matrix() {
   }, []);
 
   return (
-    <div className="bg-black">
+    <div className="bg-black absolute top-0 right-0 -z-10">
       <canvas
         id="canvas_matrix"
         data-ctx="#efb90b"
